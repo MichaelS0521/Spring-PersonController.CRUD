@@ -11,7 +11,7 @@ public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String firstName;
-    private String lsatName;
+    private String lastName;
     private int id;
 
     public String getFirstName() {
@@ -22,12 +22,12 @@ public class Person {
         this.firstName = firstName;
     }
 
-    public String getLsatName() {
-        return lsatName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLsatName(String lsatName) {
-        this.lsatName = lsatName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public int getId() {
